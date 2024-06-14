@@ -70,11 +70,11 @@ const rem=()=>{
 }
 //fuction in which whole logic is written
 const playgame = (but) => {
-    // console.log("User choice =", but);
+    console.log("User choice =", but);
     const computer_choice = comchoice();
     // console.log("computer choice=", computer_choice);
     if (but === computer_choice) {
-        console.log(computer_choice);
+        // console.log(computer_choice);
         rem();
         col(computer_choice);
         draw();
